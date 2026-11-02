@@ -1,5 +1,4 @@
-// Project Collaboration rules (Member A's module).
-// Pages call these functions; the functions check the rules and save through storage.
+
 import { storage, nextId } from './store.js'
 import { notify, notifyAll, nameOf } from './notify.js'
 import { ok, fail, failFields, clean, toInt, splitList, isDate, localToday, isoNow, checkLinks } from './util.js'
